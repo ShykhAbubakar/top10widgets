@@ -151,6 +151,24 @@ class MyApp extends StatelessWidget {
              //  // child: Icon(Icons.image),
              //  backgroundImage: NetworkImage('https://images.pexels.com/photos/7289120/pexels-photo-7289120.jpeg?auto=compress&cs=tinysrgb&w=600'),
              // ),
+
+              // Widget Number # 05: Divider Source Code
+
+          //     Divider(
+          //       thickness: 20,
+          //       color: Colors.black,
+          //     ),
+          // SizedBox(
+          //   height: 100,
+          //   child: VerticalDivider(
+          //     thickness: 20,
+          //     color: Colors.black,
+          //   ),
+          // ),
+          //     Divider(
+          //       thickness: 20,
+          //       color: Colors.black,
+          //     ),
             ],
           ),
         ),
