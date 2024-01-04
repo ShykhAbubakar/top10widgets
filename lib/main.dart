@@ -17,12 +17,11 @@ class MyApp extends StatelessWidget {
                   Text('top10widgets', style: TextStyle(color: Colors.white))),
           backgroundColor: Colors.blue,
         ),
-        body:  const Center(
+        body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-
               // Widget Number # 01: Container Properties source code
 
               // Container(
@@ -56,7 +55,6 @@ class MyApp extends StatelessWidget {
               // ),
 
               // Widget Number 2 : Expanded Widget source code
-
 
               // Column(
               //   children: [
@@ -146,29 +144,44 @@ class MyApp extends StatelessWidget {
               // Widget Number # 04: Circular Avatar Source Code
 
               // CircleAvatar(
-             //   backgroundColor: Colors.greenAccent,
-             //   radius: 100,
-             //  // child: Icon(Icons.image),
-             //  backgroundImage: NetworkImage('https://images.pexels.com/photos/7289120/pexels-photo-7289120.jpeg?auto=compress&cs=tinysrgb&w=600'),
-             // ),
+              //   backgroundColor: Colors.greenAccent,
+              //   radius: 100,
+              //  // child: Icon(Icons.image),
+              //  backgroundImage: NetworkImage('https://images.pexels.com/photos/7289120/pexels-photo-7289120.jpeg?auto=compress&cs=tinysrgb&w=600'),
+              // ),
 
               // Widget Number # 05: Divider Source Code
 
-          //     Divider(
-          //       thickness: 20,
-          //       color: Colors.black,
-          //     ),
-          // SizedBox(
-          //   height: 100,
-          //   child: VerticalDivider(
-          //     thickness: 20,
-          //     color: Colors.black,
-          //   ),
-          // ),
-          //     Divider(
-          //       thickness: 20,
-          //       color: Colors.black,
-          //     ),
+              //     Divider(
+              //       thickness: 20,
+              //       color: Colors.black,
+              //     ),
+              // SizedBox(
+              //   height: 100,
+              //   child: VerticalDivider(
+              //     thickness: 20,
+              //     color: Colors.black,
+              //   ),
+              // ),
+              //     Divider(
+              //       thickness: 20,
+              //       color: Colors.black,
+              //     ),
+
+
+              // Widget Number # 06: Rich Text Source Code
+
+              // RichText(
+              //     text: TextSpan(
+              //         text: 'Hello',
+              //         style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 20),
+              //         children: const [
+              //       TextSpan(
+              //           text: 'World',
+              //           style: TextStyle(
+              //               fontSize: 30, fontWeight: FontWeight.bold)),
+              //       TextSpan(text: 'Bold')
+              //     ])),
             ],
           ),
         ),
