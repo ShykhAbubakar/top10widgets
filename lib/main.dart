@@ -17,38 +17,73 @@ class MyApp extends StatelessWidget {
                   Text('top10widgets', style: TextStyle(color: Colors.white))),
           backgroundColor: Colors.blue,
         ),
-        body: Center(
+        body:  Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Container(
-                width: 200,
-                height: 200,
-                child: const Center(child: Text('Container')),
-                decoration: BoxDecoration(
-                    boxShadow: const [
-                      BoxShadow(
-                        color: Colors.black,
-                        blurRadius: 50,
-                      )
-                    ],
-                    color: Colors.greenAccent,
-                    border: Border.all(
-                      width: 10,
-                      color: Colors.black87,
-                    ),
-                    borderRadius: const BorderRadius.only(
-                      topLeft: Radius.circular(50),
-                      bottomRight: Radius.circular(50),
-                      topRight: Radius.circular(50),
-                      bottomLeft: Radius.circular(50),
-                    ),
-                    image: const DecorationImage(
-                      image: NetworkImage(
-                          'https://www.shutterstock.com/image-photo/just-beautiful-cute-smiling-baby-600nw-2144454063.jpg'),
-                    )),
-              ),
+              // Widget Number # 01: Container Properties
+
+
+              // Container(
+              //   transform: Matrix4.rotationZ(0.2),
+              //   width: 200,
+              //   height: 200,
+              //   child: const Center(child: Text('Container')),
+              //   decoration: BoxDecoration(
+              //       boxShadow: const [
+              //         BoxShadow(
+              //           color: Colors.black,
+              //           blurRadius: 50,
+              //         )
+              //       ],
+              //       color: Colors.greenAccent,
+              //       border: Border.all(
+              //         width: 10,
+              //         color: Colors.black87,
+              //       ),
+              //       borderRadius: const BorderRadius.only(
+              //         topLeft: Radius.circular(50),
+              //         bottomRight: Radius.circular(50),
+              //         topRight: Radius.circular(50),
+              //         bottomLeft: Radius.circular(50),
+              //       ),
+              //       image: const DecorationImage(
+              //         image: NetworkImage(
+              //             'https://www.shutterstock.com/image-photo/just-beautiful-cute-smiling-baby-600nw-2144454063.jpg'),
+              //     fit: BoxFit.fitHeight,
+              //       )),
+              // ),
+
+            Container(
+              transform: Matrix4.rotationZ(0.2),
+              width: 200,
+              height: 200,
+              child: const Center(child: Text('Container')),
+              decoration: BoxDecoration(
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Colors.black,
+                      blurRadius: 50,
+                    )
+                  ],
+                  color: Colors.greenAccent,
+                  border: Border.all(
+                    width: 10,
+                    color: Colors.black87,
+                  ),
+                  borderRadius: const BorderRadius.only(
+                    topLeft: Radius.circular(50),
+                    bottomRight: Radius.circular(50),
+                    topRight: Radius.circular(50),
+                    bottomLeft: Radius.circular(50),
+                  ),
+                  image: const DecorationImage(
+                    image: NetworkImage(
+                        'https://www.shutterstock.com/image-photo/just-beautiful-cute-smiling-baby-600nw-2144454063.jpg'),
+                fit: BoxFit.fitHeight,
+                  )),
+            ),
             ],
           ),
         ),
