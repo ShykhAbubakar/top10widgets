@@ -142,6 +142,15 @@ class MyApp extends StatelessWidget {
               //
               //   ],
               // ),
+
+              // Widget Number # 04: Circular Avatar Source Code
+
+              // CircleAvatar(
+             //   backgroundColor: Colors.greenAccent,
+             //   radius: 100,
+             //  // child: Icon(Icons.image),
+             //  backgroundImage: NetworkImage('https://images.pexels.com/photos/7289120/pexels-photo-7289120.jpeg?auto=compress&cs=tinysrgb&w=600'),
+             // ),
             ],
           ),
         ),
