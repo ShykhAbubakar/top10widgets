@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Center(
               child:
-              Text('top10widgets', style: TextStyle(color: Colors.white))),
-          backgroundColor: Colors.blue,
+                  Text('top10widgets', style: TextStyle(color: Colors.white))),
+          backgroundColor: Colors.green,
         ),
         body: Center(
           child: Column(
@@ -168,7 +168,6 @@ class MyApp extends StatelessWidget {
               //       color: Colors.black,
               //     ),
 
-
               // Widget Number # 06: Rich Text Source Code
 
               // RichText(
@@ -185,32 +184,52 @@ class MyApp extends StatelessWidget {
 
               // Widget Number # 07: Text Form Field
 
+              //   Padding(
+              //   padding:  EdgeInsets.all(8.0),
+              //   child: TextFormField(
+              //     keyboardType: TextInputType.phone,
+              //     cursorColor: Colors.blue,
+              //     decoration:  InputDecoration(
+              //       hintText: 'Email',
+              //       hintStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+              //       prefixIcon: const Icon(Icons.email),
+              //       labelText: 'Email',
+              //       enabledBorder:  OutlineInputBorder(
+              //         borderSide: const BorderSide(color: Colors.black),
+              //         borderRadius: BorderRadius.circular(10),
+              //       ),
+              //       focusedBorder: OutlineInputBorder(
+              //         borderSide: const BorderSide(color: Colors.red),
+              //         borderRadius: BorderRadius.circular(10),
+              //
+              //       ),
+              //       fillColor: Colors.blue. withOpacity(0.3),
+              //       filled: true,
+              //     ),
+              //     enabled: true,
+              //   ),
+              // ),
 
-              Padding(
-              padding:  EdgeInsets.all(8.0),
-              child: TextFormField(
-                keyboardType: TextInputType.phone,
-                cursorColor: Colors.blue,
-                decoration:  InputDecoration(
-                  hintText: 'Email',
-                  hintStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
-                  prefixIcon: const Icon(Icons.email),
-                  labelText: 'Email',
-                  enabledBorder:  OutlineInputBorder(
-                    borderSide: const BorderSide(color: Colors.black),
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  focusedBorder: OutlineInputBorder(
-                    borderSide: const BorderSide(color: Colors.red),
-                    borderRadius: BorderRadius.circular(10),
+              // Widget Number # 08: List tile widget & List View Builder
 
-                  ),
-                  fillColor: Colors.blue. withOpacity(0.3),
-                  filled: true,
-                ),
-                enabled: true,
-              ),
-            ),
+
+             Expanded(child:  ListView.builder(
+               itemCount: 1000,
+               itemBuilder: (context, index){
+                 return const ListTile(
+                   leading: CircleAvatar(
+                     backgroundColor: Colors.greenAccent,
+                     // child: Icon(Icons.image),
+                     backgroundImage: NetworkImage(
+                         'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'),
+                   ),
+                   trailing: Text('6:56 PM'),
+                   title: Text('Abubakar Tech'),
+                   subtitle: Text('Subscribe my channel'),
+                 );
+               },
+             ))
+
             ],
           ),
         ),
