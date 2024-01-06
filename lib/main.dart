@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
               Text('top10widgets', style: TextStyle(color: Colors.white))),
           backgroundColor: Colors.blue,
         ),
-        body: const Center(
+        body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -186,30 +186,31 @@ class MyApp extends StatelessWidget {
               // Widget Number # 07: Text Form Field
 
 
-            //   Padding(
-            //   padding:  const EdgeInsets.all(8.0),
-            //   child: TextFormField(
-            //     keyboardType: TextInputType.phone,
-            //     cursorColor: Colors.blue,
-            //     decoration:  InputDecoration(
-            //       hintText: 'Email',
-            //       hintStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
-            //       prefixIcon: const Icon(Icons.email),
-            //       labelText: 'Email',
-            //       enabledBorder:  OutlineInputBorder(
-            //         borderSide: const BorderSide(color: Colors.black87),
-            //         borderRadius: BorderRadius.circular(10),
-            //       ),
-            //       focusedBorder: OutlineInputBorder(
-            //         borderSide: const BorderSide(color: Colors.black87),
-            //         borderRadius: BorderRadius.circular(10),
-            //       ),
-            //       fillColor: Colors.blue. withOpacity(0.3),
-            //       filled: true,
-            //     ),
-            //     enabled: true,
-            //   ),
-            // ),
+              Padding(
+              padding:  EdgeInsets.all(8.0),
+              child: TextFormField(
+                keyboardType: TextInputType.phone,
+                cursorColor: Colors.blue,
+                decoration:  InputDecoration(
+                  hintText: 'Email',
+                  hintStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                  prefixIcon: const Icon(Icons.email),
+                  labelText: 'Email',
+                  enabledBorder:  OutlineInputBorder(
+                    borderSide: const BorderSide(color: Colors.black),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(color: Colors.red),
+                    borderRadius: BorderRadius.circular(10),
+
+                  ),
+                  fillColor: Colors.blue. withOpacity(0.3),
+                  filled: true,
+                ),
+                enabled: true,
+              ),
+            ),
             ],
           ),
         ),
