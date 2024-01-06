@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Center(
               child:
-                  Text('top10widgets', style: TextStyle(color: Colors.white))),
+              Text('top10widgets', style: TextStyle(color: Colors.white))),
           backgroundColor: Colors.green,
         ),
         body: Center(
@@ -213,22 +213,22 @@ class MyApp extends StatelessWidget {
               // Widget Number # 08: List tile widget & List View Builder
 
 
-             Expanded(child:  ListView.builder(
-               itemCount: 1000,
-               itemBuilder: (context, index){
-                 return const ListTile(
-                   leading: CircleAvatar(
-                     backgroundColor: Colors.greenAccent,
-                     // child: Icon(Icons.image),
-                     backgroundImage: NetworkImage(
-                         'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'),
-                   ),
-                   trailing: Text('6:56 PM'),
-                   title: Text('Abubakar Tech'),
-                   subtitle: Text('Subscribe my channel'),
-                 );
-               },
-             ))
+              Expanded(child:  ListView.builder(
+                itemCount: 1000,
+                itemBuilder: (context, index){
+                  return const ListTile(
+                    leading: CircleAvatar(
+                      backgroundColor: Colors.greenAccent,
+                      // child: Icon(Icons.image),
+                      backgroundImage: NetworkImage(
+                          'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'),
+                    ),
+                    trailing: Text('6:56 PM'),
+                    title: Text('Abubakar Tech'),
+                    subtitle: Text('Subscribe my channel'),
+                  );
+                },
+              ))
 
             ],
           ),
