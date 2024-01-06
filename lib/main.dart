@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Center(
               child:
-                  Text('top10widgets', style: TextStyle(color: Colors.white))),
+              Text('top10widgets', style: TextStyle(color: Colors.white))),
           backgroundColor: Colors.blue,
         ),
         body: const Center(
@@ -182,6 +182,34 @@ class MyApp extends StatelessWidget {
               //               fontSize: 30, fontWeight: FontWeight.bold)),
               //       TextSpan(text: 'Bold')
               //     ])),
+
+              // Widget Number # 07: Text Form Field
+
+
+            //   Padding(
+            //   padding:  const EdgeInsets.all(8.0),
+            //   child: TextFormField(
+            //     keyboardType: TextInputType.phone,
+            //     cursorColor: Colors.blue,
+            //     decoration:  InputDecoration(
+            //       hintText: 'Email',
+            //       hintStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+            //       prefixIcon: const Icon(Icons.email),
+            //       labelText: 'Email',
+            //       enabledBorder:  OutlineInputBorder(
+            //         borderSide: const BorderSide(color: Colors.black87),
+            //         borderRadius: BorderRadius.circular(10),
+            //       ),
+            //       focusedBorder: OutlineInputBorder(
+            //         borderSide: const BorderSide(color: Colors.black87),
+            //         borderRadius: BorderRadius.circular(10),
+            //       ),
+            //       fillColor: Colors.blue. withOpacity(0.3),
+            //       filled: true,
+            //     ),
+            //     enabled: true,
+            //   ),
+            // ),
             ],
           ),
         ),
